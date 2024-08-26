@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    padding: 24px
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff
+}

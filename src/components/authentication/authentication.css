@@ -1,0 +1,48 @@
+.form-card {
+    max-width: 500px;
+    margin: 24px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.form { 
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.input-btn {
+    padding: 10px;
+    margin-top: 24px;
+    background: rgb(160,118,255);
+background: linear-gradient(90deg, rgba(160,118,255,1) 0%, rgb(69, 0, 116) 100%);
+border: none;
+color: #ffffff;
+font-size: 16px;
+font-weight: 400;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.form-desc {
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+}
